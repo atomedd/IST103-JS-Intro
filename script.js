@@ -1,6 +1,8 @@
+//activity 1
 
  //   alert("Hello World!"); 
-
+ 
+//activity 2
 let personName = "Edmar Vianna";
 
 let personAge = 28;
@@ -23,13 +25,36 @@ let nullVar = null;
 const MAX_LOGIN_ATTEMPTS = 5;
 
 
-//console.log of the variables
+//activity 3
 
-console.log("Person's name:", personName);
-console.log("Person's age:", personAge);
-console.log("Is the person married?", isMarried);
-console.log("Person's hobbies:", personHobbies);
-console.log("Person's address:", personAddress);
-console.log("Undefined variable:", undefinedVar);
-console.log("Null variable:", nullVar);
-console.log("Maximum login attempts:", MAX_LOGIN_ATTEMPTS);
+console.log("Person's name: " + personName);
+
+console.log("Person's age: " +  personAge);
+
+console.log("Is the person married? " + isMarried);
+
+console.log("Person's hobbies: " + personHobbies);
+
+console.log("Person's address: " , personAddress);
+
+console.log("Person's phone " + undefinedVar);
+
+console.log("Maximum login attempts: " + MAX_LOGIN_ATTEMPTS);
+
+//activity 4
+
+let todoList = [
+"give the dog a bath",
+ "do the laundry",
+ "drink water",
+ "cook diner"]
+
+let myTv = {
+    brand: "Samsung",
+    color: "Black",
+    isUsed: "True",
+    frequency: "75hz",
+}
+
+console.log("my first thing to do is: " + todoList[0])
+console.log("The frequency of the TV is: "+ myTv.frequency)
